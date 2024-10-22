@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Véia - JoKenPoker</title>
+    <link rel="stylesheet" href="style.css">
+    <audio id="background-music" autoplay loop>
+        <source src="sons/fundinho.mp3" type="audio/mpeg">
+    </audio>
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <div class="logo">
+                <img src="logojokenpoker.png" alt="logojokenpoker" />
+            </div>
+            <h1>JOGO DA VÉIA</h1>
+        </header>
+        <div class="grid">
+            <div id="play-sound" class="cell" data-cell></div>
+            <div id="play-sound" class="cell" data-cell></div>
+            <div id="play-sound" class="cell" data-cell></div>
+            <div id="play-sound" class="cell" data-cell></div>
+            <div id="play-sound" class="cell" data-cell></div>
+            <div id="play-sound" class="cell" data-cell></div>
+            <div id="play-sound" class="cell" data-cell></div>
+            <div id="play-sound" class="cell" data-cell></div>
+            <div id="play-sound" class="cell" data-cell></div>
+        </div>
+
+
+        <div class="scoreboard">
+            <div class="score">
+                <p>Jogador 1: <span id="scorePlayer1"></span></p>
+            </div>
+            <div class="score">
+                <p>Jogador 2: <span id="scorePlayer2"></span></p>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="som.js"></script>
+</body>
+</html>
